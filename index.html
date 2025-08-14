@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Азалия - креативное портфолио</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Анимированный SVG фон -->
+  <div class="animated-bg">
+    <svg id="bg-lines" width="100%" height="100%" preserveAspectRatio="none"></svg>
+    <canvas id="bg-dots"></canvas>
+  </div>
+
+  <div class="container">
+    <!-- Шапка с фото и анимацией -->
+    <header class="hero">
+      <div class="photo-container">
+        <img src="photo_me.png" alt="Азалия" class="profile-photo" id="profilePhoto">
+      </div>
+      <h1 class="title">Привет! Я Азалия</h1>
+    </header>
+
+    <main class="content">
+      <!-- Блок "Обо мне" -->
+      <section class="about">
+        <div class="text-block">
+          <p>Мне 22. Учусь в магистратуре ИТМО на «Научной коммуникации» — учусь рассказывать о сложном просто.</p>
+          <p>До этого была экономистом СПбГЭУ, но потянуло на творчество.</p>
+        </div>
+        <!-- Интерактивные элементы -->
+        <div class="interactive-elements">
+          <div class="hobby" id="basketballBtn">🏀 Баскетбол</div>
+          <div class="hobby" id="museumBtn">🖼️ Музеи</div>
+          <div class="hobby" id="fashionBtn">👗 Мода</div>
+          <div class="hobby" id="seaBtn">🌊 Море</div>
+        </div>
+        <div class="text-block">
+          <p>А ещё я монтажёр-новичок: делаю коллажи, абстракции, люблю винтажную съёмку и мечтаю снять безумную документалку.</p>
+        </div>
+      </section>
+
+      <!-- Галерея работ -->
+      <section class="portfolio">
+        <h2>Мои работы</h2>
+        <div class="gallery">
+          <div class="work">
+            <video controls class="video-preview">
+              <source src="Мотивационный ролик_бокс.mp4" type="video/mp4">
+              Ваш браузер не поддерживает видео.
+            </video>
+            <p class="work-description">Мотивационный ролик</p>
+          </div>
+          <div class="work">
+            <video controls class="video-preview">
+              <source src="Видео для своего инстика.mp4" type="video/mp4">
+              Ваш браузер не поддерживает видео.
+            </video>
+            <p class="work-description">Сочи</p>
+          </div>
+          <div class="work">
+            <video controls class="video-preview">
+              <source src="Промо плавание_фишай.mp4" type="video/mp4">
+              Ваш браузер не поддерживает видео.
+            </video>
+            <p class="work-description">Промо плавание ИТМО</p>
+          </div>
+          <div class="work">
+            <video controls class="video-preview">
+              <source src="dada.mp4" type="video/mp4">
+              Ваш браузер не поддерживает видео.
+            </video>
+            <p class="work-description">Коллажное видео - Дадаизм</p>
+          </div>
+          <div class="work">
+            <video controls class="video-preview">
+              <source src="saint.mp4" type="video/mp4">
+              Ваш браузер не поддерживает видео.
+            </video>
+            <p class="work-description">Короткое видео Санкт-Петербург</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Свяжитесь со мной по телеграмм, если хотите сделать видео: @dummermann</p>
+      <p>© С уважением, Азалия</p>
+    </footer>
+  </div>
+</body>
+</html>
